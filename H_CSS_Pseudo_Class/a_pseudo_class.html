@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        p::before
+        {
+            content:"This is prefix content ";
+            color: blueviolet;
+            font-weight: bold;
+        }
+        p::after
+        {
+            content: " is added suffix sanothimi."
+        }
+        h5::before
+        {
+            content: '&#60 ';
+        }
+    </style>
+</head>
+<body>
+    <p>This is text</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, rem?</p>
+    <h5>Nothing is impossible.</h5>
+
+</body>
+</html>
