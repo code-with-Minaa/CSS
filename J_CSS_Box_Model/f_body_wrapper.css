@@ -1,0 +1,8 @@
+body{ margin: 0; padding: 0; background-color: antiquewhite;}
+#mainWrap
+{
+    width: 800px;
+    height: auto;
+    background-color: brown;
+    margin: 0 auto;
+}
